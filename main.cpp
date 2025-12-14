@@ -1,6 +1,7 @@
 #include <iostream>
 #include "nw/NeuralNetwork.h"
 #include "nw/LayerGen.h"
+#include <cstring>
 
 
 int main()
@@ -19,6 +20,10 @@ int main()
 
 
     std::cout << "nw study" << std::endl;
+    
+    char str1[4];
+    const char* str2 = "Monya";
+    std::strcpy(str1, str2);
 
     
 
